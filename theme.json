@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "settings": {
+    "appearanceTools": false,
+    "color": {
+      "custom": false,
+      "defaultPalette": false,
+      "palette": []
+    },
+    "spacing": {
+      "padding": false,
+      "margin": false,
+      "blockGap": false,
+      "units": []
+    },
+    "layout": {
+    "contentSize": "100%",
+    "wideSize": "100%"
+  },
+    "typography": {
+  "fontFamilies": [
+    {
+      "fontFamily": "'Inter', sans-serif",
+      "slug": "inter",
+      "name": "Inter"
+    }
+  ],
+  "defaultFontFamily": "inter"
+},
+    "custom": {}
+  },
+  "styles": {
+    "spacing": {
+      "blockGap": "0"
+    },
+    "elements": {
+      "body": {
+        "margin": "0"
+      },
+      "h1": { "margin": "0" },
+      "h2": { "margin": "0" },
+      "h3": { "margin": "0" },
+      "h4": { "margin": "0" },
+      "h5": { "margin": "0" },
+      "h6": { "margin": "0" },
+      "p":   { "margin": "0" }
+    },
+    "typography": {
+    "fontFamily": "var(--wp--preset--font-family--inter)"
+  }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ]
+}
