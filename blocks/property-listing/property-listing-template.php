@@ -27,6 +27,11 @@ $query = new WP_Query($args);
   data-mode="<?= esc_attr($mode); ?>"
   data-manual="<?= esc_attr(json_encode($manual_ids)); ?>"
 >
+
+<div class='property-heading'>
+    <h1>Property Listings</h1>
+</div>
+
     <div class='property-filter'>
         <div class='property-select'>
             <h3>Category</h3>

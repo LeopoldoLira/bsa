@@ -26,6 +26,13 @@
 }
 
 
+.property-heading h1{
+    text-align: center;
+    padding-bottom: 5rem;
+    font-size: 3.75rem;
+    font-weight: 500;
+}
+
 .property-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -177,6 +184,11 @@ input[type=text],input[type=text]::placeholder{
     
 }
 
+.property-heading h1{
+
+    font-size: 3.125rem;
+}
+
 .property-filter{
         grid-template-columns: repeat(2,1fr);
     }
@@ -190,6 +202,10 @@ input[type=text],input[type=text]::placeholder{
     .property-listing-block{
         padding:1.25rem
     }
+.property-heading h1{
+    padding-top: 1.875rem;
+    font-size: 2rem;
+}
 
     
 
